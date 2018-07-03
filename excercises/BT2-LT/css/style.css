@@ -1,0 +1,115 @@
+body {
+  width: 350px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+b {
+  color: #4A8384;
+}
+
+ul {
+  text-align: left;
+  margin: 0;
+  padding-left: 0;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 0 2px 0;
+  background-color: #FBF1C0;
+  color: #4A8384;
+}
+
+hr {
+  color: #dadada;
+  border-width: 1px;
+}
+
+#container {
+  padding: 3px 10px;
+  background-color: #e6f3fb;
+}
+
+#date {
+  color: #808080;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+.content {
+  border-top: 2px solid #ffa500;
+  background-color: white;
+}
+
+.info {
+  height: auto;
+  margin: 8px;
+  overflow: auto;
+}
+
+.info .blog-text p {
+  margin-top: 0;
+}
+
+.blog-img{
+  width: 60%;
+  float: left;
+  display: flex;
+  padding: 1px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+}
+
+.horos-img {
+  width: 40%;
+  float: left;
+  display: flex;
+}
+
+.horos-footer {
+  height: 50px;
+  overflow: auto;
+  background-color: #f4f4ec;
+}
+
+.horos-footer-text {
+  float: left;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 70%;
+}
+.horos-footer-img {
+  float: right;
+  height: 100%;
+  width: 30%;
+  padding: 0;
+  display: flex;
+}
+
+.news-text {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+
+.news-img {
+  width: 45%;
+  height: 90px;
+  float: right;
+  padding: 0;
+  display: flex;
+}
+
+.com-content {
+  padding: 10px;
+  border: 1px solid #dadada;
+  background-color: white;
+}
