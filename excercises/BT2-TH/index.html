@@ -4,9 +4,141 @@
 	
 	<title>Bài tập 2 - Thực hành</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
+  <!-- Khung chính của trang web -->
+  <div id="container">
+
+  	<!-- Thiết kế cho phần nội dung trang web -->
+  	<div id="content">
+      <div id="logo">
+      	<div id="logo-title"></div> <!-- #logo-title -->
+      	<div id="search">
+      	  <input id="txt-search" type="text" name="search-text">
+      	  <input id="btn-search" type="button" name="btn-search" value="SEARCH">
+      	</div> <!-- #search -->
+      </div> <!-- .logo -->
+
+      <div class="daily">
+      	<div id="border-gossip" class="gossip">
+      	  <div class="daily-title"><b>DAILY CELEBRITY GOSSIP</b></div>
+      	  <img class="img-daily" src="imgs/man.png" align="old-man">
+      	  <img class="img-show" src="imgs/h3-confidential-showbuzz-bg.gif">
+      	  <b>   + RUSSELL CROWE + MORE ... </b>
+      	  <p>RUSSELL Crowe's son to marry Keith & Nicole's daughter, plus Renee Zellweger reveals her breast cancer scare</p>
+      	</div> <!-- .gossip (daily celebrity pics) -->
+
+      	<div class="pics">
+      	  <div class="daily-title"><b>DAILY CELEBRITY PICS</b></div>
+          <img class="img-daily" src="imgs/davidbeck.png" alt="david beck">
+          <img class="img-show" src="imgs/h3-confidential-shootingstars-bg.gif" alt="shootingstarts.gif">
+          <b>+ BECKAMS, CLAUDIA SCHIFFER</b>
+          <p>VICTORYA and David Beckham dine out in NY, as top models Claudia Schiffer and Eva Herzigova git the shops in Milan.</p>
+      	</div> <!-- .pics (daily celebrity pics) -->
+
+      	<div class="confi">
+      	  <img src="imgs/confidential-logo.gif" alt="confidential-logo">
+      	</div> <!-- .confi (confidential) -->
+      </div><!-- .daily -->
+
+      <div class="movie-trailer">
+        <div class="daily-title"><b>TOP 3 MOVIE TRAILERS</b></div>
+        <div class="movie-catalog">
+          The House Bunny (M)
+          <div class="icon-catalog ic-1">
+
+          </div>
+        </div>
+        <div class="trailer-context">
+          <img src="imgs/girl.jpg">
+          <span>When Playbot bunny Shelly is tossed out of the mansion, she falls in with the soroity girls from Zeta Alpha Zets
+          </span>
+          <div class="film-icon film-ic1"></div>
+          <p class="film-txt film-txt-1">Watch How</p>
+        </div>
+        <div class="movie-catalog">
+          Eagle Eye (M)
+          <div class="icon-catalog ic-2"></div>
+        </div>
+        <div class="movie-catalog">
+          Journey To The Centre Of The Earth (PG)
+          <div class="icon-catalog ic-2"></div>
+        </div>
+        <div class="movie-showing">
+          <img src="imgs/now-showing-icon.gif">
+          <span>Now Showing</span>
+          <select>
+            <option value="select-movie">Select Movie</option>
+          </select>
+        </div>
+      </div> <!-- .movie-trailer -->
+      <div class="movie-review">
+        <div class="daily-title"><b>MOVIE REVIEWS</b></div>
+        <div class="review-context">
+          <div class="in-review-title">Eagle Eye</div>
+          <p class="in-review-vote vote-1"></p>
+          <img class="in-review-img" src="imgs/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg">
+          <span class="in-review-txt">SHIA LaBeouf hits the ground running in Eagle Eye, an against the clock conspiracy thriller with a timely technological f...</span>
+          <div class="film-icon film-ic2"></div>
+          <span class="film-txt film-txt-2">Wiew Trailer</span>
+        </div>
+
+        <div class="review-context">
+          <div class="in-review-title">House Bunny</div>
+          <p class="in-review-vote vote-2"></p>
+          <img class="in-review-img" src="imgs/thumb_100x66_215784_215698_2008_the_house_bunny.jpg"></img>
+          <span class="in-review-txt">IF YOU left Legally Blone and Revenge Of The Nerds DVDs in a darkened room for long enough, something like The House Bun...</span>
+          <div class="film-icon film-ic2"></div>
+          <span class="film-txt film-txt-2">Wiew Trailer</span>
+        </div>
+        <img class="clock-ico"></img>
+        <span class="cinema-list">Local Cinema listings</span>
+        <span class="more-view">+ MORE MOVIES</span>
+      </div> <!-- .movie-review -->
+    </div> <!-- #content -->
+
+    <!-- Thiết kế cho phần footer của trang web -->
+    <div id="footer">
+      <div class="footer-1">
+        <div class="footer-item">
+          <img src="imgs/item_1.jpg">
+          <a href="#" >News on your mobile</a>
+        </div>
+        <div class="footer-item">
+          <img src="imgs/item_2.jpg">
+          <a href="#" >RSS feeds</a>
+        </div>
+        <div class="footer-item">
+          <img src="imgs/item_3.jpg">
+          <a href="#" >Newsletters</a>
+        </div>
+        <div class="footer-item">
+          <img src="imgs/item_4.jpg">
+          <a href="#" >Send your news stories</a>
+        </div>
+        <div class="footer-item">
+          <img src="imgs/item_5.jpg">
+          <a href="#" >Send your news photos</a>
+        </div>
+      </div> <!-- .footer-1 -->
+
+      <div class="footer-2">
+        <a href="#">Help |</a>
+        <a href="#">Contact Us |</a>
+        <a href="#">Advertise with US |</a>
+        <a href="#">Job Opportunities |</a>
+        <a href="#">Terms & Conditions |</a>
+        <a href="#">Privacy Policy |</a>
+        <a href="#">Accessibility |</a>
+        <a href="#">Sitemap |</a>
+        <a href="#">News Headlines from Our Parners</a>
+        <a class="back-top" href="#">Back top</a>
+        <p>Copyright 2008 News Limited. All times AeST (GMT +10).</p>
+      </div> <!-- .footer-2 -->
+    </div><!-- #footer -->
+  </div><!-- #container -->
 
 </body>
 </html>
