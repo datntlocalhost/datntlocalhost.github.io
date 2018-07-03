@@ -1,0 +1,387 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  background-color: #EFF0F1;
+}
+
+/* Định nghĩa cho khung, content và footer cho website */
+#container {
+  width: 985px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #292728;
+}
+
+#content {
+  width: 100%;
+  height: 84.375%;
+  position: relative;
+  border-bottom: 1px dashed white;
+}
+
+#footer {
+  width: 100%;
+  height: 15.625%;
+  position: relative;
+  text-align: center;
+}
+
+/* ===== Định nghĩa các thành phần bên trong #content ===== */
+
+/* Thành phần trong search */
+#logo {
+  width: 25%;
+  height: 6.25%;
+  position: absolute;
+  top: 6%;
+  right: 6.25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#logo-title {
+  width: 100%;
+  height: 60%;
+  background-image: url("../imgs/Entertainment.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#search {
+  width: 100%;
+  height: 40%;
+
+}
+#txt-search {
+  height: 15px;
+  margin-left: 13px;
+}
+#btn-search {
+  width: 60px;
+  background-color: #BB2E7C;
+  border: none;
+}
+
+/* Thành phần trong daily */
+.daily {
+  width: 66.25%;
+  height: 39%;
+  position: absolute;
+  top: 3.125%;
+  left: 0;
+  font-family: Arial;
+}
+.daily-title {
+  width: 100%;
+  height: 27px; 
+  font-size: 15px;
+  color: white;
+  background-image: url("../imgs/h2-confidential-heading-bg.gif");
+}
+.daily-title b {
+  margin: 10px 0 0 10px;
+}
+.gossip,
+.pics {
+	width: 50%;
+	height: 85%;
+}
+.daily .gossip {
+	float: left;
+	background-color: white;
+}
+.daily .pics {
+	float: right;
+	background-color: white;
+}
+
+.img-daily {
+	width: 94%;
+	height: 120px;
+	margin: 7px 7px 0 10px;
+}
+.daily b {
+	margin-left: 13px;
+}
+.daily p {
+	margin-top: 2px;
+	margin-left: 10px;
+	font-size: 11px;
+}
+
+.confi {
+	width: 100%;
+	height: 15%;
+	clear: both;
+	background-color: white;
+}
+.confi img {
+  margin: 12px 0 0 10px;
+}
+
+.img-show {
+  width: 94%;
+	height: 10%;
+	margin: 0 10px;
+}
+#border-gossip {
+  border-right: 1px dotted black;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*  Thành phần torng MOVIE TRAILER */
+.movie-trailer {
+  width: 32%;
+  height: 29%;
+  position: absolute;
+  left: 0.5%;
+  top: 44%;
+  font-family: Arial;
+  background-color: white;
+}
+
+.movie-review {
+  width: 32%;
+  height: 43%;
+  position: absolute;
+  left: 34.2%;
+  top: 44%;
+  font-family: Arial;
+  background-color: white;
+}
+
+.movie-catalog {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Time New Romans";
+  font-weight: bold;
+  color: #1F7BCE;
+  background-image: url("../imgs/h3-movie-trailers-bg.gif");
+}
+
+.icon-catalog {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-image: url("../imgs/top-movie-trailers-arrows.gif");
+}
+.ic-1 {
+  background-position: 0 0;
+}
+.ic-2 {
+  background-position: 0 -22px;
+}
+.trailer-context {
+  width: 100%;
+  height: 43%;
+  padding: 7px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.trailer-context img {
+  width: 80px;
+  height: 70px;
+  position: absolute;
+}
+.trailer-context span {
+  width: 200px;
+  height: 60px;
+  top: 3px;
+  left: 95px;
+  position: absolute;
+}
+
+.movie-showing {
+  width: 100%;
+  height: 25px;
+  position: relative;
+  border-top: 1px dotted black;
+}
+.movie-showing img {
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+.movie-showing span {
+  position: absolute;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
+  color: black;
+}
+.movie-showing select {
+  width: 200px;
+  height: 19px;
+  position: absolute;
+  top: 2px;
+  left: 110px;
+}
+
+.film-icon {
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  background-image: url("../imgs/films.png");
+  background-size: 100% 100%;
+}
+
+.film-ic1 {
+  top: 65px;
+  left: 95px;
+}
+.film-ic2 {
+  left: 5px;
+  top: 90px;
+}
+
+.film-txt {
+  position: absolute;
+  font-weight: bold;
+  font-size: 11px;
+  color: #1880C4;
+}
+.film-txt-1 {
+  left: 120px;
+  top: 57px;
+}
+.film-txt-2 {
+  left: 30px;
+  top: 92px;
+}
+
+.movie-trailer .daily-title {
+  background-image: url("../imgs/h2-top-movie-trailers-bg.gif");
+}
+.movie-review .daily-title {
+  background-image: url("../imgs/h2-top-movie-trailers-bg.gif");
+}
+
+.review-context {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.in-review-title {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  font-weight: bold;
+  font-size: 12.5px;
+  color: #1F7BCE;
+}
+.in-review-img {
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 7px;
+}
+.in-review-txt {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 105px;
+}
+.in-review-vote {
+  width: 59px;
+  height: 16px;
+  position: absolute;
+  top: -10px;
+  left: 245px;
+  background-image: url("../imgs/topic-star-ratings.gif");
+}
+.vote-1 {
+  background-position: 0 96px;
+}
+.vote-2 {
+  background-position: 0 112px;
+}
+
+.clock-ico {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 268px;
+  left: 7px;
+  background-image: url("../imgs/entertainment-icons.gif");
+  background-position: 0 826px;
+}
+
+.cinema-list {
+  position: absolute;
+  top: 268px;
+  left: 23px;
+  color: #1880C4;
+  font-weight: bold;
+  font-size: 11px;
+}
+.more-view {
+  position: absolute;
+  top: 268px;
+  right: 10px;
+  font-size: 11px; 
+}
+
+
+/* Định nghĩa các thành phần bên trong footer */
+
+.footer-1 {
+  display: flex;
+  padding: 10px 50px 10px 50px;
+}
+
+.footer-item {
+  text-align: center;
+  padding: 0 50px 0 50px;
+  position: relative;
+}
+
+.footer-item a {
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  width: 130px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Arial;
+}
+
+.footer-2 {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  position: absolute;
+  top: 90px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+
+.footer-2 a,
+p {
+  text-decoration: none;
+  color: #2196f3;
+  font-family: Arial;
+}
+
+.footer-2 .back-top {
+  position: relative;
+  left: 35px;
+}
