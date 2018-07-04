@@ -304,8 +304,56 @@ window.onload = function () {
 
 	}
 
+	function chart4 () {
+
+		var canvas = document.getElementById("chart-4");
+		var ctx    = canvas.getContext("2d");
+
+		//Vẽ khung biểu đồ
+		//lineTo (ctx, moveX, moveY, lineX, lineY, color, lineWidth)
+		draw.lineTo(ctx, 100, 70, 400, 70, "#66D9EF");
+		draw.lineTo(ctx, 100, 110, 400, 110, "#66D9EF");
+		draw.lineTo(ctx, 100, 150, 400, 150, "#66D9EF");
+		draw.lineTo(ctx, 100, 190, 400, 190, "#66D9EF");
+		draw.lineTo(ctx, 100, 230, 400, 230, "#000");
+
+		//Vẽ thông tin trục hoành
+		draw.text(ctx, "A", "17px Arial", "black", 115, 250);
+		draw.text(ctx, "B", "17px Arial", "black", 175, 250);
+		draw.text(ctx, "C", "17px Arial", "black", 235, 250);
+		draw.text(ctx, "E", "17px Arial", "black", 295, 250);
+		draw.text(ctx, "F", "17px Arial", "black", 355, 250);
+
+		//Vẽ thông tin trục tung
+		draw.text(ctx, "4", "17px Arial", "black", 80, 75);
+		draw.text(ctx, "3", "17px Arial", "black", 80, 115);
+		draw.text(ctx, "2", "17px Arial", "black", 80, 155);
+		draw.text(ctx, "1", "17px Arial", "black", 80, 195);
+		draw.text(ctx, "0", "17px Arial", "black", 80, 235);
+
+		//Vẽ text cho biểu đồ
+		draw.text(ctx, "BIỂU ĐỒ LỊCH SỬ LEVEL OF POSITION", "22px Arial", "black", 60, 35);
+		draw.text(ctx, "LEVEL OF POSITION", "italic 18px Arial", "#66D9EF", -230, 40, -90*Math.PI/180);
+		draw.text(ctx, "TÊN DỰ ÁN", "italic 18px Arial", "#66D9EF", 200, 280);
+		draw.text(ctx, "LEVEL", "18px Arial", "#000", 410, 112);
+		draw.text(ctx, "OF", "18px Arial", "#000", 410, 135);
+		draw.text(ctx, "POSITION", "18px Arial", "#000", 410, 158);
+
+		//Vẽ dữ liệu cho biểu đồ
+		//fillRec(ctx, startX, startY, endX, endY, color)
+		draw.fillRec(ctx, 100, 150, 40, 80, "#3366CC");
+		draw.fillRec(ctx, 160, 225, 40, 5, "#3366CC");
+		draw.fillRec(ctx, 220, 110, 40, 120, "#3366CC");
+		draw.fillRec(ctx, 280, 70, 40, 160, "#3366CC");
+		draw.fillRec(ctx, 340, 70, 40, 160, "#3366CC");
+		draw.fillRec(ctx, 410, 70, 40, 15, "#3366CC");
+
+
+	}
+
 	chart1();
 	chart2();
 	chart3();
+	chart4();
 
 }
